@@ -1,0 +1,29 @@
+{
+    "name": "in2code/deploymentlocker",
+    "type": "library",
+    "description": "Simple script to prohibit parallel execution of the same TYPO3.Surf deployment",
+    "keywords": ["surf", "deployment", "lock", "locking", "typo3", "typo3.surf", "parallel"],
+    "homepage": "https://github.com/in2code-de/In2code.DeploymentLocker",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Oliver Eglseder",
+            "email": "oliver.eglseder@in2code.de",
+            "homepage": "https://in2code.de"
+        }
+    ],
+    "require": {
+        "typo3/surf": "^2.0",
+        "php": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "In2code\\DeploymentLocker\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master":  "1.0.x-dev"
+        }
+    }
+}
