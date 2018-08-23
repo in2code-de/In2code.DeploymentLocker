@@ -12,9 +12,10 @@
             "homepage": "https://in2code.de"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-        "typo3/surf": "^2.0",
-        "php": "^5.5"
+        "typo3/surf": "2.0.0-beta7",
+        "php": "5.5 - 7.2"
     },
     "autoload": {
         "psr-4": {
